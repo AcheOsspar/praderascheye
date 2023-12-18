@@ -1,0 +1,43 @@
+
+body{
+    background-color: #275E31;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*asignando un color y centrando el contenido*/
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color:#275E31;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+
+/*asignando el espaciado al los bordes y diagramación*/
+header nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+
+header nav img{
+    width: 100%;
+    padding: 10px; 
+}
+
+
+
+img{
+    margin: auto;
+    display: block;
+    width: 80%;
+}
